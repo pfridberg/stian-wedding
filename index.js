@@ -14,7 +14,10 @@ new fullpage('#fullpage', {
     //options here
     autoScrolling: true,
     scrollHorizontally: true,
-    sectionsColor: autumnMist
+    sectionsColor: autumnMist,
+    slidesNavigation: true,
+    navigation: true,
+    normalScrollElements: "#map-hotell, #map-kirke"
 });
 
 console.log("hello world");

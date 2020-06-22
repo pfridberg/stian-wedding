@@ -32,16 +32,8 @@
 
                 <h1>Klækken Hotell</h1>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and
-                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap
-                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                    the
-                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing
-                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Adresse: Hadelandsveien 386, 3514 Hønefoss <br>
+                    <a href="https://www.klaekken.no/">https://www.klaekken.no/</a>
                 </p>
                 <div id="map-hotell"></div>
             </div>
@@ -49,16 +41,7 @@
 
                 <h1>Norderhov Kirke</h1>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and
-                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap
-                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                    the
-                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing
-                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Adresse: Norderhovsbakken, 3512 Hønefoss
                 </p>
                 <div id="map-kirke"></div>
             </div>
@@ -161,7 +144,7 @@
             var mapHotell = new google.maps.Map(
                 document.getElementById('map-hotell'), { zoom: 16, center: klaekken });
             var mapKirke = new google.maps.Map(
-                document.getElementById('map-kirke'), { zoom: 16, center: norderhov });
+                document.getElementById('map-kirke'), { zoom: 15, center: norderhov });
             // The marker, positioned at Uluru
             var markerHotell = new google.maps.Marker({ position: klaekken, map: mapHotell });
             var markerKirke = new google.maps.Marker({ position: norderhov, map: mapKirke });
