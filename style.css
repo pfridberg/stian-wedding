@@ -33,3 +33,9 @@
     margin-right: auto;
     background-color: grey;
 }
+
+.img-avatar {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 80%;
+}
