@@ -1,0 +1,24 @@
+{
+  "name": "stian-wedding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "bulma": "^0.9.0",
+    "bulma-extensions": "^6.2.7",
+    "bulma-timeline": "^3.0.4",
+    "fullpage.js": "^3.0.8",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.4",
+    "style.css": "^1.0.0",
+    "style.js": "0.0.2"
+  }
+}

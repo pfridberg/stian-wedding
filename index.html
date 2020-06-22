@@ -1,0 +1,174 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section padding">
+            <h1>Bryllup</h1>
+            <p>Velkommen til bryllup!</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+        <div class="section padding">
+            <div class="slide">
+
+                <h1>Klækken Hotell</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <div id="map-hotell"></div>
+            </div>
+            <div class="slide">
+
+                <h1>Norderhov Kirke</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <div id="map-kirke"></div>
+            </div>
+            <div class="slide"> Slide 3 </div>
+            <div class="slide"> Slide 4 </div>
+        </div>
+        <div class="section padding">
+            <h1>Ønskeliste</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+        <div class="section padding">
+
+            <h1>Program</h1>
+            <div class="timeline is-centered">
+                <header class="timeline-header">
+                  <span class="tag is-medium is-primary">Start</span>
+                </header>
+                <div class="timeline-item is-primary">
+                  <div class="timeline-marker is-primary"></div>
+                  <div class="timeline-content">
+                    <p class="heading">12:00-13:00</p>
+                    <p>Timeline content - Can include any HTML element</p>
+                  </div>
+                </div>
+                <div class="timeline-item is-warning">
+                  <div class="timeline-marker is-warning is-image is-32x32">
+                    <img src="https://bulma.io/images/placeholders/32x32.png">
+                  </div>
+                  <div class="timeline-content">
+                    <p class="heading">13:30-15:00</p>
+                    <p>Timeline content - Can include any HTML element</p>
+                  </div>
+                </div>
+                <div class="timeline-item is-danger">
+                  <div class="timeline-marker is-danger is-icon">
+                    <i class="fa fa-flag"></i>
+                  </div>
+                  <div class="timeline-content">
+                    <p class="heading">15:00-23:00</p>
+                    <p>Timeline content - Can include any HTML element</p>
+                  </div>
+                </div>
+                <header class="timeline-header">
+                  <span class="tag is-medium is-primary">End</span>
+                </header>
+              </div>
+        </div>
+        <div class="section padding">
+
+            <h1>Bordkart</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+        <div class="section padding">
+
+            <h1>Generelt</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var klaekken = { lat: 60.1681544, lng: 10.3234738 };
+            var norderhov = { lat: 60.131561, lng: 10.269953 };
+            // The map, centered at Uluru
+            var mapHotell = new google.maps.Map(
+                document.getElementById('map-hotell'), { zoom: 16, center: klaekken });
+            var mapKirke = new google.maps.Map(
+                document.getElementById('map-kirke'), { zoom: 16, center: norderhov });
+            // The marker, positioned at Uluru
+            var markerHotell = new google.maps.Marker({ position: klaekken, map: mapHotell });
+            var markerKirke = new google.maps.Marker({ position: norderhov, map: mapKirke });
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2dQGK51nNt09Vo1vss1a7_bIhgvx7cuI&callback=initMap">
+        </script>
+</body>
+
+</html>
