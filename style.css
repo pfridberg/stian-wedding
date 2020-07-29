@@ -2,18 +2,24 @@
     font-family: 'Josefin Slab', serif;
     text-align: center;
     color: black;
-    font-size: 18px;
+    padding: 0;
 }
 
 .section h1 {
     font-family: 'Alex Brush', cursive;
     color: black;
-    font-size: 36px;
 }
 
-.padding {
-    padding-left: 80px;
-    padding-right: 80px;
+.section-content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="section-content"] {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 #map-hotell {
