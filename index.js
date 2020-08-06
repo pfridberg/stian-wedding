@@ -31,6 +31,7 @@ const autumnMist = ["bda89f","c29b94","d19288","e7d7b8","d9a376"]
 
 new fullpage('#fullpage', {
     //options here
+    licenseKey: "l0aCu8N?h4",
     autoScrolling: true,
     sectionsColor: autumnMist,
     slidesNavigation: true,
